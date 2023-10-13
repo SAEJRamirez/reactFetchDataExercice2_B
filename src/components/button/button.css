@@ -1,0 +1,14 @@
+button {
+    width: 33.33%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background: rgb(177,176,176);
+    background: linear-gradient(90deg, rgba(177,176,176,1) 0%, rgba(200,195,195,1) 47%, rgba(230,222,222,1) 100%);
+    border: 1px solid rgb(123, 123, 123);
+}
+
+button.selected {
+    background: rgb(189,237,103);
+    background: linear-gradient(90deg, rgba(189,237,103,1) 0%, rgba(86,166,18,1) 47%, rgba(68,166,18,1) 100%);
+    color: #fff;
+}
